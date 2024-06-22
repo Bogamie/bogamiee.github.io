@@ -4,6 +4,7 @@ layout: archive
 
 {{ content }}
 
+<<<<<<< HEAD
 {% assign categories_max = 0 %}
 {% for category in site.categories %}
   {% if category[1].size > categories_max %}
@@ -42,3 +43,6 @@ layout: archive
     {% endif %}
   {% endfor %}
 {% endfor %} -->
+=======
+{% include posts-taxonomy.html taxonomies=site.categories %}
+>>>>>>> 93022d6432f277eb5d83677fa50e4120f1281b04
