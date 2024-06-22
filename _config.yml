@@ -225,15 +225,11 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-<<<<<<< HEAD
-paginate: 15 # amount of posts to show
-=======
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Pagination with jekyll-paginate
 paginate: 5 # amount of posts to show
->>>>>>> 93022d6432f277eb5d83677fa50e4120f1281b04
 paginate_path: /page:num/
 
 # Pagination with jekyll-paginate-v2
